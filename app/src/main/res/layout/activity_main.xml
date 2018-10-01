@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BiodataKu"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:layout_marginBottom="20dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/poto"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NIM : A11.2016.09928"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NAMA : Bayu Candra Semedi"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HOBI : Memancing"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DESKRIPSI : Keyboard player"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Telepon"
+        android:onClick="callPhone"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alamat"
+        android:onClick="openMap"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:onClick="email"/>
+
+</LinearLayout>
